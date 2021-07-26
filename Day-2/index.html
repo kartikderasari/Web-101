@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title - Web Dev 101</title>
+</head>
+
+<body>
+
+  <h1>Web Dev 101 - Day 2</h1>
+
+  <!-- HTML Empty Elements -->
+
+  <!-- Horizontal Rule -->
+  <hr>
+
+  <!-- Line Break -->
+  <br>
+
+  <!-- <p></p> (Paragraph) is a Block Element -->
+  <!-- <b></b> (Bold) is an Inline Element -->
+  <p>Welcome to <b> Web Dev 101 </b> series!</p>
+
+  <hr>
+
+  <!-- HTML Headings -->
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+
+  <hr>
+
+  <!-- HTML Formatting Tags -->
+  <!-- br tags are just for viewing the content clearly, they are not essential -->
+
+  <!-- <b> - Bold text -->
+  <b>This text is bold</b><br>
+
+  <!-- <strong> - Important text -->
+  <strong>This text is important!</strong><br>
+
+  <!-- <i> - Italic text -->
+  <i>This text is italic</i><br>
+
+  <!-- <em> - Emphasized text -->
+  <em>This text is emphasized</em><br>
+
+  <!-- <mark> - Marked text -->
+  <p>Welcome to <mark>Web Dev 101</mark>.</p>
+
+  <!-- <small> - Smaller text -->
+  <small>This is some smaller text.</small>
+
+  <!-- <del> - Deleted text -->
+  <p>I love <del>Mountains</del> Beaches.</p>
+
+  <!-- <sub> - Subscript text -->
+  <p>This is <sub>subscripted</sub> text.</p>
+
+  <!-- <sup> - Superscript text -->
+  <p>This is <sup>superscripted</sup> text.</p>
+
+  <hr>
+
+  <!-- HTML Lists -->
+
+  <!-- Ordered List (Numbered) -->
+  <ol>
+    <li>Item one</li>
+    <li>Item two</li>
+  </ol>
+
+  <!-- Unordered List (Bullets) -->
+  <ul>
+    <li>Item one</li>
+    <li>Item two</li>
+  </ul>
+
+  <hr>
+
+  <!-- HTML Links -->
+
+  <!-- Opens in the existing Tab -->
+  <a href="https://developers.google.com/">Google Developers</a>
+
+  <!-- Opens in a New Tab/Window -->
+  <a href="https://developers.google.com/" target="_blank">
+    Google Developers (Open in New Tab)
+  </a>
+
+  <hr>
+
+  <!-- HTML Images -->
+  <!-- <img> tag is an empty element -->
+
+  <img
+    src="https://www.gstatic.com/devrel-devsite/prod/v3c2319be42ec37c76448426e64c5186bfb85c07b78d714f8abe2af99733028ed/developers/images/touchicon-180.png"
+    alt="Google Developers logo" width="200" height="200">
+
+  <hr>
+
+  <!-- HTML Tables -->
+
+  <!-- <table> represents a table -->
+  <!-- <thead> represents heading of a table  -->
+  <!-- <tbody> represents body/content of a table -->
+  <!-- <tr> represents a table row -->
+  <!-- <th> represents a table heading content -->
+  <!-- <td> represents a table data -->
+
+  <table>
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Kartik</td>
+        <td>Derasari</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <!-- HTML Forms Syntax -->
+  <form action="login" method="get">
+
+    <!-- Input Fields -->
+    <!-- Submit Button -->
+
+  </form>
+
+  <!-- HTML Forms -->
+  <form>
+
+    <!-- HTML Input Fields -->
+
+    <label for="uname">Name:</label>
+    <input type="text" id="uname" name="uname" placeholder="Enter your name"> <br>
+
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email"> <br>
+
+    <label for="quantity">Quantity (between 1 and 5):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5" placeholder="Enter quantity"> <br>
+
+    <label for="Website">Website:</label>
+    <input type="url" id="Website" name="Website" placeholder="Enter Website URL"> <br>
+
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd" placeholder="Enter your password"> <br>
+
+
+
+    <!-- HTML Radio Button -->
+
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+
+    <!-- HTML Checkbox -->
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label><br>
+
+
+    <!-- Miscellaneous Input Fields -->
+
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor"><br>
+
+    <label for="Date">Date:</label>
+    <input type="date" id="Date" name="Date"><br>
+
+    <label for="myfile">Select a file:</label>
+    <input type="file" id="myfile" name="myfile"><br>
+
+
+    <!-- HTML Buttons -->
+
+    <!-- Submit form data -->
+    <input type="submit" value="Submit">
+
+    <!-- Clear form data -->
+    <input type="reset">
+
+    <!-- Perform custom functionalities -->
+    <button onclick="someFunction()">Button</button>
+  </form>
+
+</body>
+
+</html>
