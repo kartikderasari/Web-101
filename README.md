@@ -7,8 +7,8 @@ Web Development 101 by TechDrill initiative is open to everyone who is intereste
 | Sr No | Topics to be covered                | Resources                                                         |
 | ----- | ----------------------------------- | ----------------------------------------------------------------- |
 | 1.    | Web Fundamentals & Intro to HTML    | [Link](https://github.com/kartikderasari/Web-101/tree/main/Day-1) |
-| 2.    | HTML Practical Labs                 | Link (TBA)                                                        |
-| 3.    | Intro to CSS and Codelab            | Link (TBA)                                                        |
+| 2.    | HTML Practical Labs                 | [Link](https://github.com/kartikderasari/Web-101/tree/main/Day-2) |
+| 3.    | Intro to CSS and Codelab            | [Link](https://github.com/kartikderasari/Web-101/tree/main/Day-3) |
 | 4.    | CSS Practical Lab                   | Link (TBA)                                                        |
 | 5.    | Intro to JavaScript and Codelab     | Link (TBA)                                                        |
 | 6.    | JavaScript Practical Lab            | Link (TBA)                                                        |
