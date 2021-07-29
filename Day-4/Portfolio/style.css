@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(61, 61, 245);
+  padding: 7px;
+  margin: 0px 3px;
+}
+
+.btn:hover {
+  background-color: rgb(110, 110, 223);
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.bg-aliceblue {
+  background-color: aliceblue;
+}
+
+.bg-antiquewhite {
+  background-color: antiquewhite;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+}
