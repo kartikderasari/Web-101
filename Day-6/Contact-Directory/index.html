@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div style="text-align: center;">
+    <h1>Contact Directory</h1>
+  </div>
+
+  <div class="container">
+    <h3 style="margin: 5px;">Add a New Contact</h3>
+    <table>
+      <tr>
+        <td><label for="contactName">Name:</label></td>
+        <td><input type="text" name="contactName" id="contactName" placeholder="Enter a Name"></td>
+      </tr>
+      <tr>
+        <td><label for="contactNumber">Number:</label></td>
+        <td><input type="number" name="contactNumber" id="contactNumber" placeholder="Enter a Number"></td>
+      </tr>
+    </table>
+    <button onclick="addData()">Add Data</button>
+    <button onclick="clearAllData()">Clear All Data</button>
+  </div>
+
+  <div class="container">
+    <h3 style="margin: 5px;">Contact Directory</h3>
+    <table style="width: 100%;">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Number</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
