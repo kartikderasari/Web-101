@@ -11,7 +11,7 @@ Web Development 101 by TechDrill initiative is open to everyone who is intereste
 | 3.    | Intro to CSS and Codelab            | [Link](https://github.com/kartikderasari/Web-101/tree/main/Day-3) |
 | 4.    | CSS Practical Lab                   | [Link](https://github.com/kartikderasari/Web-101/tree/main/Day-4) |
 | 5.    | Intro to JavaScript and Codelab     | [Link](https://github.com/kartikderasari/Web-101/tree/main/Day-5) |
-| 6.    | JavaScript Practical Lab            | Link (TBA)                                                        |
+| 6.    | JavaScript Practical Lab            | Link (https://github.com/kartikderasari/Web-101/tree/main/Day-6)  |
 | 7.    | JavaScript Advance and Mini Project | Link (TBA)                                                        |
 
 ## Questions & Feedback

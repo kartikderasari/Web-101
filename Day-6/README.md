@@ -19,4 +19,4 @@
 - Manipulate values of Input fields using value
 - Manipulate styles of HTML elements using style.property
 
-### Please refer to the [Contact-Directory]() for project source code.
+### Please refer to the [Contact-Directory](https://github.com/kartikderasari/Web-101/tree/main/Day-6/Contact-Directory) for project source code.
