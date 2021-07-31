@@ -24,14 +24,14 @@ Submit your project [here](https://docs.google.com/forms/d/e/1FAIpQLSfn7cMF9-ulG
 
 1. <b>Single-Page Personal Portfolio Website </b>
 
-   - Use the Wireframe to build the layout of the webpages
+   - Use [this](https://github.com/kartikderasari/Web-101/blob/main/Day-7/Portfolio-WireFrame.png) WireFrame to build the layout of the webpages
    - Be creative and feel free to make the website look more appealing
    - Host the website on GitHub Pages and Submit the URL
 
 2. <b>[Optional] GitHub Search Engine </b> - Build a Search Engine to view GitHub users data using HTML, CSS, JavaScript and GitHub API
 
    - Use an Input Field to capture the GitHub username
-   - Consume the GitHub API to fetch the data using the username (https://api.github.com/users/kartikderasari)
+   - Consume the [GitHub API](https://api.github.com/users/kartikderasari) to fetch the data using the username
    - You can showcase followers, following, repositories, organizations and much more
    - Be creative and feel free to make the website look more appealing
    - Host the website on GitHub pages and Submit the URL
